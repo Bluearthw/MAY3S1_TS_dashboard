@@ -14,11 +14,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render the Barco CTRL title', async () => {
+  it('should render the Dashboard title', async () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Barco CTRL');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Dashboard');
   });
 });
