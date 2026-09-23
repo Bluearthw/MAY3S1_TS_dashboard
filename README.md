@@ -5,7 +5,7 @@
 [![RxJS](https://img.shields.io/badge/RxJS-Reactive_Streams-B7178C?style=flat&logo=reactivex&logoColor=white)](https://rxjs.dev/)
 [![Tests](https://img.shields.io/badge/Unit_Tests-Passing-success?style=flat&logo=vitest&logoColor=white)](#automated-testing) -->
 
-A basic real-time frontend monitoring dashboard. The dashboard visualizes streaming hardware telemetry (CPU load, temperature, network bitrate) across distributed nodes (encoders, decoders, video walls) and enables live operational controls with optimistic state updates.
+<!-- A basic real-time frontend monitoring dashboard. The dashboard visualizes streaming hardware telemetry (CPU load, temperature, network bitrate) across distributed nodes (encoders, decoders, video walls) and enables live operational controls with optimistic state updates.
 
 ---
 
@@ -23,9 +23,9 @@ A basic real-time frontend monitoring dashboard. The dashboard visualizes stream
 - **Strict Domain Modeling:** Compile-time type safety over hardware states using TypeScript union types and interfaces.
 - **Automated Test Coverage:** Unit test suites verifying asynchronous state toggling and DOM title rendering.
 
----
+--- -->
 
-
+<!-- 
 ## project tree
 ts-dashboard
 ├─ .angular
@@ -133,4 +133,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ### Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page. -->
