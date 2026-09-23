@@ -1,11 +1,11 @@
 # Real-Time Dashboard
 
-<!-- [![Angular](https://img.shields.io/badge/Angular-v22+-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.dev/)
+[![Angular](https://img.shields.io/badge/Angular-v22+-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![RxJS](https://img.shields.io/badge/RxJS-Reactive_Streams-B7178C?style=flat&logo=reactivex&logoColor=white)](https://rxjs.dev/)
-[![Tests](https://img.shields.io/badge/Unit_Tests-Passing-success?style=flat&logo=vitest&logoColor=white)](#automated-testing) -->
+[![Tests](https://img.shields.io/badge/Unit_Tests-Passing-success?style=flat&logo=vitest&logoColor=white)](#automated-testing)
 
-<!-- A basic real-time frontend monitoring dashboard. The dashboard visualizes streaming hardware telemetry (CPU load, temperature, network bitrate) across distributed nodes (encoders, decoders, video walls) and enables live operational controls with optimistic state updates.
+ A basic real-time frontend monitoring dashboard. The dashboard visualizes streaming hardware telemetry (CPU load, temperature, network bitrate) across distributed nodes (encoders, decoders, video walls) and enables live operational controls with optimistic state updates. 
 
 ---
 
@@ -23,7 +23,7 @@
 - **Strict Domain Modeling:** Compile-time type safety over hardware states using TypeScript union types and interfaces.
 - **Automated Test Coverage:** Unit test suites verifying asynchronous state toggling and DOM title rendering.
 
---- -->
+---
 
 <!-- 
 ## project tree
