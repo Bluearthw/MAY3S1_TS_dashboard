@@ -26,7 +26,9 @@
 ---
 
 
-<!-- ## project tree
+### 📁 Repository Structure
+
+```text
 ts-dashboard
 ├─ .angular
 │  └─ cache
@@ -73,7 +75,8 @@ ts-dashboard
 │  └─ styles.css
 ├─ tsconfig.app.json
 ├─ tsconfig.json
-└─ tsconfig.spec.json -->
+└─ tsconfig.spec.json
+```
 
 # orginal:
 ## TsDashboard
