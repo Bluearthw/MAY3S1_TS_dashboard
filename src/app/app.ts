@@ -1,12 +1,22 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { DeviceService } from './services/device';
+import { ControlDevice } from './models/device.model';
+import { Observable } from 'rxjs';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('ts-dashboard');
+  private deviceService = inject(DeviceService);
+
+  devices$: Observable<ControlDevice[]> = this.deviceService.devices$;
+
+  onTogglePower(id: string): void {
+    this.deviceService.toggleDeviceStatus(id);
+  }
 }
